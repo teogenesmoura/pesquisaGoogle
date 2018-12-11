@@ -1,0 +1,65 @@
+[
+	{
+		"login" : "resocie.esquerda@gmail.com",
+		"password" : "Tarrow2016"
+	},	
+        {
+		"login" : "resocie.esquerda2@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.esquerda3@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.direita@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.direita2@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.direita3@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.homem@gmail.com",
+		"password" : "Tarrow2017"
+	},
+        {
+		"login" : "resocie.homem2@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.homem3@gmail.com",
+		"password" : "Tarrow2016"
+
+	},
+        {
+		"login" : "resocie.mulher@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.mulher2@gmail.com",
+		"password" : "Tarrow2016"
+	}, 
+        {
+		"login" : "resocie.mulher3@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.neutra@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.neutra2@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.neutra3@gmail.com",
+		"password" : "Tarrow2016"
+	}
+ 
+]
+
