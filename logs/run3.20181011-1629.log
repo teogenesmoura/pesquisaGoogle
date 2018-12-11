@@ -1,0 +1,91 @@
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f300da02940>
+<genericresult.GenericResult object at 0x7f300da02f98>
+<video.Video object at 0x7f300da029b0>
+<topstory.TopStory object at 0x7f300ed31da0>
+<genericresult.GenericResult object at 0x7f300da02f60>
+<video.Video object at 0x7f300da02940>
+<topstory.TopStory object at 0x7f30119bc438>
+<genericresult.GenericResult object at 0x7f300da02f60>
+<video.Video object at 0x7f300da02e48>
+<topstory.TopStory object at 0x7f300ed31da0>
+<genericresult.GenericResult object at 0x7f300da02908>
+<video.Video object at 0x7f300da02b70>
+<topstory.TopStory object at 0x7f30119bc438>
+<genericresult.GenericResult object at 0x7f300da02908>
+<video.Video object at 0x7f300da02dd8>
+<topstory.TopStory object at 0x7f300ed31da0>
+<genericresult.GenericResult object at 0x7f300da02cf8>
+<video.Video object at 0x7f300da02a90>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f300ed31da0>
+<genericresult.GenericResult object at 0x7f300da02278>
+<video.Video object at 0x7f300d169d30>
+<topstory.TopStory object at 0x7f300d169cf8>
+<genericresult.GenericResult object at 0x7f300d169f60>
+<video.Video object at 0x7f300d169a20>
+<topstory.TopStory object at 0x7f300da023c8>
+<genericresult.GenericResult object at 0x7f300da02208>
+<video.Video object at 0x7f300d1699e8>
+<topstory.TopStory object at 0x7f300d169f60>
+<genericresult.GenericResult object at 0x7f300d169198>
+<video.Video object at 0x7f300d169da0>
+<topstory.TopStory object at 0x7f300d169cf8>
+<genericresult.GenericResult object at 0x7f300d169f60>
+<video.Video object at 0x7f300d1698d0>
+<topstory.TopStory object at 0x7f300d169b38>
+<genericresult.GenericResult object at 0x7f300d169d30>
+<video.Video object at 0x7f300d169e48>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f300d18b898>
+<genericresult.GenericResult object at 0x7f300d18b6d8>
+<video.Video object at 0x7f300d18b278>
+<topstory.TopStory object at 0x7f300d169da0>
+<genericresult.GenericResult object at 0x7f300da02860>
+<video.Video object at 0x7f300d18b278>
+<topstory.TopStory object at 0x7f300d169a90>
+<genericresult.GenericResult object at 0x7f300da02518>
+<video.Video object at 0x7f300d18b550>
+<topstory.TopStory object at 0x7f300d169da0>
+<genericresult.GenericResult object at 0x7f300da02860>
+<video.Video object at 0x7f300d18b828>
+<topstory.TopStory object at 0x7f300d169a90>
+<genericresult.GenericResult object at 0x7f300da02518>
+<video.Video object at 0x7f300d18b198>
+<topstory.TopStory object at 0x7f300d169da0>
+<genericresult.GenericResult object at 0x7f300da02860>
+<video.Video object at 0x7f300d18b240>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f300d169e80>
+<genericresult.GenericResult object at 0x7f300d169d68>
+<video.Video object at 0x7f300d18bc88>
+<topstory.TopStory object at 0x7f300d169828>
+<genericresult.GenericResult object at 0x7f300d169198>
+<video.Video object at 0x7f300d18b278>
+<topstory.TopStory object at 0x7f300d169d68>
+<genericresult.GenericResult object at 0x7f300d169e80>
+<video.Video object at 0x7f300d18b278>
+<topstory.TopStory object at 0x7f300d169198>
+<genericresult.GenericResult object at 0x7f300d169828>
+<video.Video object at 0x7f300d18b9e8>
+<topstory.TopStory object at 0x7f300d169e80>
+<genericresult.GenericResult object at 0x7f300d169d68>
+<video.Video object at 0x7f300d18b470>
+<topstory.TopStory object at 0x7f300d169828>
+<genericresult.GenericResult object at 0x7f300d169198>
+<video.Video object at 0x7f300d18be80>
+Traceback (most recent call last):
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 93, in <module>
+    main()
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 81, in main
+    gmail_sign_in(driver, profile)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 32, in gmail_sign_in
+    driver.get("http://mail.google.com")
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 326, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: TypeError: this.curBrowser.contentBrowser is null
+

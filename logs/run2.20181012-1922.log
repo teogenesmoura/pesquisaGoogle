@@ -1,0 +1,66 @@
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f304277b940>
+<genericresult.GenericResult object at 0x7f304277bf98>
+<video.Video object at 0x7f304277b9b0>
+<topstory.TopStory object at 0x7f3043aaadd8>
+<genericresult.GenericResult object at 0x7f304277bf60>
+<video.Video object at 0x7f304277b940>
+<topstory.TopStory object at 0x7f3046735438>
+<genericresult.GenericResult object at 0x7f304277bf60>
+<video.Video object at 0x7f304277bda0>
+<topstory.TopStory object at 0x7f3043aaadd8>
+<genericresult.GenericResult object at 0x7f304277b908>
+<video.Video object at 0x7f304277bb70>
+<topstory.TopStory object at 0x7f3046735438>
+<genericresult.GenericResult object at 0x7f304277b908>
+<video.Video object at 0x7f304277bba8>
+<topstory.TopStory object at 0x7f3043aaadd8>
+<genericresult.GenericResult object at 0x7f304277beb8>
+<video.Video object at 0x7f304277ba90>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f3043aaadd8>
+<genericresult.GenericResult object at 0x7f304277b278>
+<video.Video object at 0x7f3041ee4da0>
+<topstory.TopStory object at 0x7f3041ee4b00>
+<genericresult.GenericResult object at 0x7f3041ee4d30>
+<video.Video object at 0x7f3041ee4fd0>
+<topstory.TopStory object at 0x7f304277b208>
+<genericresult.GenericResult object at 0x7f304277bbe0>
+<video.Video object at 0x7f3041ee4978>
+<topstory.TopStory object at 0x7f3041ee4d68>
+<genericresult.GenericResult object at 0x7f3041ee4a20>
+<video.Video object at 0x7f3041ee4f98>
+<topstory.TopStory object at 0x7f3041ee4198>
+<genericresult.GenericResult object at 0x7f3041ee4d68>
+<video.Video object at 0x7f3041ee4160>
+<topstory.TopStory object at 0x7f304277bd68>
+<genericresult.GenericResult object at 0x7f304277b828>
+<video.Video object at 0x7f3041ee4b00>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f3041f02828>
+<genericresult.GenericResult object at 0x7f3041f02668>
+<video.Video object at 0x7f3041f025c0>
+<topstory.TopStory object at 0x7f3041ee4198>
+<genericresult.GenericResult object at 0x7f3041ee4cf8>
+<video.Video object at 0x7f3041f02518>
+<topstory.TopStory object at 0x7f3041ee4a58>
+<genericresult.GenericResult object at 0x7f3041ee4048>
+<video.Video object at 0x7f3041f02470>
+<topstory.TopStory object at 0x7f3041ee4978>
+<genericresult.GenericResult object at 0x7f3041ee4c88>
+<video.Video object at 0x7f3041f026a0>
+Traceback (most recent call last):
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 93, in <module>
+    main()
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 84, in main
+    google_html = google_search(driver, busca)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 24, in google_search
+    driver.get("https://www.google.com")
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 326, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Timeout loading page after 300000ms
+

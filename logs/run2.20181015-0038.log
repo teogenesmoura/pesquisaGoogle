@@ -1,0 +1,64 @@
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f4714af5940>
+<genericresult.GenericResult object at 0x7f4714af5f98>
+<video.Video object at 0x7f4714af59b0>
+<topstory.TopStory object at 0x7f4715e24da0>
+<genericresult.GenericResult object at 0x7f4714af5f60>
+<video.Video object at 0x7f4714af5940>
+<topstory.TopStory object at 0x7f4718aaf438>
+<genericresult.GenericResult object at 0x7f4714af5f60>
+<video.Video object at 0x7f4714af5cf8>
+<topstory.TopStory object at 0x7f4715e24da0>
+<genericresult.GenericResult object at 0x7f4714af5908>
+<video.Video object at 0x7f4714af5b70>
+<topstory.TopStory object at 0x7f4718aaf438>
+<genericresult.GenericResult object at 0x7f4714af5908>
+<video.Video object at 0x7f4714af5e80>
+<topstory.TopStory object at 0x7f4715e24da0>
+<genericresult.GenericResult object at 0x7f4714af5e48>
+<video.Video object at 0x7f4714af5a90>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f4715e24da0>
+<genericresult.GenericResult object at 0x7f4714af5278>
+<video.Video object at 0x7f471425d908>
+<topstory.TopStory object at 0x7f471425da90>
+<genericresult.GenericResult object at 0x7f471425de80>
+<video.Video object at 0x7f471425d048>
+<topstory.TopStory object at 0x7f4714af52e8>
+<genericresult.GenericResult object at 0x7f4714af5898>
+<video.Video object at 0x7f471425dc88>
+<topstory.TopStory object at 0x7f471425dda0>
+<genericresult.GenericResult object at 0x7f471425de48>
+<video.Video object at 0x7f471425ddd8>
+<topstory.TopStory object at 0x7f4714af5da0>
+<genericresult.GenericResult object at 0x7f4714af5c18>
+<video.Video object at 0x7f471425dc88>
+<topstory.TopStory object at 0x7f471425db70>
+<genericresult.GenericResult object at 0x7f471425de10>
+<video.Video object at 0x7f471425dc88>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f471427f860>
+<genericresult.GenericResult object at 0x7f471427f6a0>
+<video.Video object at 0x7f471427f2e8>
+<topstory.TopStory object at 0x7f4714af5b00>
+<genericresult.GenericResult object at 0x7f4714af5780>
+<video.Video object at 0x7f471427f3c8>
+<topstory.TopStory object at 0x7f4714af52e8>
+<genericresult.GenericResult object at 0x7f4714af5780>
+<video.Video object at 0x7f471427f3c8>
+<topstory.TopStory object at 0x7f4714af5518>
+<genericresult.GenericResult object at 0x7f4714af5780>
+<video.Video object at 0x7f471427f588>
+<topstory.TopStory object at 0x7f4714af5390>
+<genericresult.GenericResult object at 0x7f4714af5780>
+<video.Video object at 0x7f471427f4e0>
+<topstory.TopStory object at 0x7f4714af5b00>
+<genericresult.GenericResult object at 0x7f4714af5780>
+<video.Video object at 0x7f471427f828>
+Não foi possível abrir o arquivo do gist
+Traceback (most recent call last):
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 93, in <module>
+    main()
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 83, in main
+    for busca in buscas:
+TypeError: 'NoneType' object is not iterable

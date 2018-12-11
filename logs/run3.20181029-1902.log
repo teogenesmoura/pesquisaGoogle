@@ -1,0 +1,55 @@
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f898c6e9940>
+<genericresult.GenericResult object at 0x7f898c6e9f98>
+<video.Video object at 0x7f898c6e99b0>
+<topstory.TopStory object at 0x7f898da18da0>
+<genericresult.GenericResult object at 0x7f898c6e9f60>
+<video.Video object at 0x7f898c6e9940>
+<topstory.TopStory object at 0x7f89906a3438>
+<genericresult.GenericResult object at 0x7f898c6e9f60>
+<video.Video object at 0x7f898c6e9e80>
+<topstory.TopStory object at 0x7f898da18da0>
+<genericresult.GenericResult object at 0x7f898c6e9908>
+<video.Video object at 0x7f898c6e9b70>
+<topstory.TopStory object at 0x7f89906a3438>
+<genericresult.GenericResult object at 0x7f898c6e9908>
+<video.Video object at 0x7f898c6e9ba8>
+<topstory.TopStory object at 0x7f898da18da0>
+<genericresult.GenericResult object at 0x7f898c6e9cf8>
+<video.Video object at 0x7f898c6e9a90>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f898da18da0>
+<genericresult.GenericResult object at 0x7f898c6e9278>
+<video.Video object at 0x7f898be51fd0>
+<topstory.TopStory object at 0x7f898be51cc0>
+<genericresult.GenericResult object at 0x7f898be51b00>
+<video.Video object at 0x7f898be51978>
+<topstory.TopStory object at 0x7f898c6e9278>
+<genericresult.GenericResult object at 0x7f898c6e9518>
+<video.Video object at 0x7f898be51a58>
+<topstory.TopStory object at 0x7f898be51da0>
+<genericresult.GenericResult object at 0x7f898be51240>
+<video.Video object at 0x7f898be51ac8>
+<topstory.TopStory object at 0x7f898be51cc0>
+<genericresult.GenericResult object at 0x7f898be51da0>
+<video.Video object at 0x7f898be51f98>
+<topstory.TopStory object at 0x7f898c6e9908>
+<genericresult.GenericResult object at 0x7f898c6e9ba8>
+<video.Video object at 0x7f898be51048>
+Traceback (most recent call last):
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 93, in <module>
+    main()
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 81, in main
+    gmail_sign_in(driver, profile)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 34, in gmail_sign_in
+    email_id = driver.find_element_by_id("identifierId")
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 353, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 957, in find_element
+    'value': value})['value']
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="identifierId"]
+

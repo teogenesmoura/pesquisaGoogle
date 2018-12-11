@@ -1,0 +1,59 @@
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Lula, Bolsonaro, Haddad, Marina Silva, Alckmin, Ciro Gomes, João Amoedo, Álvaro Dias, Cabo Daciolo, Boulos
+<topstory.TopStory object at 0x7efd0a47ab00>
+<genericresult.GenericResult object at 0x7efd0a47ac88>
+<video.Video object at 0x7efd0a47acf8>
+<topstory.TopStory object at 0x7efd0b7a9da0>
+<genericresult.GenericResult object at 0x7efd0a47afd0>
+<video.Video object at 0x7efd0a47ab00>
+<topstory.TopStory object at 0x7efd0e434438>
+<genericresult.GenericResult object at 0x7efd0a47ae80>
+<video.Video object at 0x7efd0a47a828>
+<topstory.TopStory object at 0x7efd0b7a9da0>
+<genericresult.GenericResult object at 0x7efd0a47ac18>
+<video.Video object at 0x7efd0a47ae80>
+<topstory.TopStory object at 0x7efd0e434438>
+<genericresult.GenericResult object at 0x7efd0a47aef0>
+<video.Video object at 0x7efd0a47ac88>
+<topstory.TopStory object at 0x7efd0b7a9da0>
+<genericresult.GenericResult object at 0x7efd0a47ab00>
+<video.Video object at 0x7efd0a47ac18>
+<topstory.TopStory object at 0x7efd0e434438>
+<genericresult.GenericResult object at 0x7efd0a47a828>
+<video.Video object at 0x7efd0a47ada0>
+<topstory.TopStory object at 0x7efd0b7a9da0>
+<genericresult.GenericResult object at 0x7efd0a47a2e8>
+<video.Video object at 0x7efd0a47a828>
+<topstory.TopStory object at 0x7efd0e434438>
+<genericresult.GenericResult object at 0x7efd0a47abe0>
+<video.Video object at 0x7efd0a47ae80>
+<topstory.TopStory object at 0x7efd0b7a9da0>
+<genericresult.GenericResult object at 0x7efd0a47aa90>
+<video.Video object at 0x7efd0a47a898>
+<topstory.TopStory object at 0x7efd0e434438>
+<genericresult.GenericResult object at 0x7efd0a47ae80>
+<video.Video object at 0x7efd0a47afd0>
+<topstory.TopStory object at 0x7efd0b7a9da0>
+<genericresult.GenericResult object at 0x7efd0a47a2e8>
+<video.Video object at 0x7efd0a47a898>
+<topstory.TopStory object at 0x7efd0e434438>
+<genericresult.GenericResult object at 0x7efd0a47ae10>
+<video.Video object at 0x7efd0a47a2e8>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Lula, Bolsonaro, Haddad, Marina Silva, Alckmin, Ciro Gomes, João Amoedo, Álvaro Dias, Cabo Daciolo, Boulos
+<topstory.TopStory object at 0x7efd0e434438>
+<genericresult.GenericResult object at 0x7efd0a47a908>
+<video.Video object at 0x7efd09bea400>
+Traceback (most recent call last):
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 93, in <module>
+    main()
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 84, in main
+    google_html = google_search(driver, busca)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 25, in google_search
+    driver.get(base_link + query)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 326, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Timeout loading page after 300000ms
+

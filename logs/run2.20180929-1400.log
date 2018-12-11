@@ -1,0 +1,57 @@
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Lula, Bolsonaro, Haddad, Marina Silva, Alckmin, Ciro Gomes, João Amoedo, Álvaro Dias, Cabo Daciolo, Boulos
+<topstory.TopStory object at 0x7f7cfcef2b00>
+<genericresult.GenericResult object at 0x7f7cfcef2c88>
+<video.Video object at 0x7f7cfcef2cf8>
+<topstory.TopStory object at 0x7f7cfe221da0>
+<genericresult.GenericResult object at 0x7f7cfcef2fd0>
+<video.Video object at 0x7f7cfcef2b00>
+<topstory.TopStory object at 0x7f7d00eac438>
+<genericresult.GenericResult object at 0x7f7cfcef29b0>
+<video.Video object at 0x7f7cfcef2d68>
+<topstory.TopStory object at 0x7f7cfe221da0>
+<genericresult.GenericResult object at 0x7f7cfcef2c88>
+<video.Video object at 0x7f7cfcef2c18>
+<topstory.TopStory object at 0x7f7d00eac438>
+<genericresult.GenericResult object at 0x7f7cfcef2b70>
+<video.Video object at 0x7f7cfcef2be0>
+<topstory.TopStory object at 0x7f7cfe221da0>
+<genericresult.GenericResult object at 0x7f7cfcef22e8>
+<video.Video object at 0x7f7cfcef2e48>
+<topstory.TopStory object at 0x7f7d00eac438>
+<genericresult.GenericResult object at 0x7f7cfcef2a90>
+<video.Video object at 0x7f7cfcef22e8>
+<topstory.TopStory object at 0x7f7cfe221da0>
+<genericresult.GenericResult object at 0x7f7cfcef2be0>
+<video.Video object at 0x7f7cfcef29b0>
+<topstory.TopStory object at 0x7f7d00eac438>
+<genericresult.GenericResult object at 0x7f7cfcef2c88>
+<video.Video object at 0x7f7cfcef2f98>
+<topstory.TopStory object at 0x7f7cfe221da0>
+<genericresult.GenericResult object at 0x7f7cfcef2a90>
+<video.Video object at 0x7f7cfcef2fd0>
+<topstory.TopStory object at 0x7f7d00eac438>
+<genericresult.GenericResult object at 0x7f7cfcef2e48>
+<video.Video object at 0x7f7cfcef2a90>
+<topstory.TopStory object at 0x7f7cfe221da0>
+<genericresult.GenericResult object at 0x7f7cfcef2be0>
+<video.Video object at 0x7f7cfcef2b70>
+<topstory.TopStory object at 0x7f7d00eac438>
+<genericresult.GenericResult object at 0x7f7cfcef2c88>
+<video.Video object at 0x7f7cfcef2be0>
+Traceback (most recent call last):
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 93, in <module>
+    main()
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 81, in main
+    gmail_sign_in(driver, profile)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 43, in gmail_sign_in
+    passw.send_keys(profile["password"])
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 479, in send_keys
+    'value': keys_to_typing(value)})
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: Element <input class="whsOnd zHQkBf" name="password" type="password"> is not reachable by keyboard
+

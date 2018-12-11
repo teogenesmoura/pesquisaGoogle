@@ -1,0 +1,47 @@
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7fb975f95940>
+<genericresult.GenericResult object at 0x7fb975f95f98>
+<video.Video object at 0x7fb975f959b0>
+<topstory.TopStory object at 0x7fb9772c4da0>
+<genericresult.GenericResult object at 0x7fb975f95f60>
+<video.Video object at 0x7fb975f95940>
+<topstory.TopStory object at 0x7fb979f4f438>
+<genericresult.GenericResult object at 0x7fb975f95f60>
+<video.Video object at 0x7fb975f95e48>
+<topstory.TopStory object at 0x7fb9772c4da0>
+<genericresult.GenericResult object at 0x7fb975f95908>
+<video.Video object at 0x7fb975f95dd8>
+<topstory.TopStory object at 0x7fb979f4f438>
+<genericresult.GenericResult object at 0x7fb975f95908>
+<video.Video object at 0x7fb975f95b70>
+<topstory.TopStory object at 0x7fb9772c4da0>
+<genericresult.GenericResult object at 0x7fb975f95eb8>
+<video.Video object at 0x7fb975f95a90>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7fb9772c4da0>
+<genericresult.GenericResult object at 0x7fb975f95278>
+<video.Video object at 0x7fb9756fca90>
+<topstory.TopStory object at 0x7fb9756fca20>
+<genericresult.GenericResult object at 0x7fb9756fcd68>
+<video.Video object at 0x7fb9756fce10>
+<topstory.TopStory object at 0x7fb975f95278>
+<genericresult.GenericResult object at 0x7fb975f95208>
+<video.Video object at 0x7fb9756fce48>
+<topstory.TopStory object at 0x7fb9756fcd68>
+<genericresult.GenericResult object at 0x7fb9756fca90>
+<video.Video object at 0x7fb9756fcfd0>
+Traceback (most recent call last):
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 93, in <module>
+    main()
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 84, in main
+    google_html = google_search(driver, busca)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 25, in google_search
+    driver.get(base_link + query)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 326, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Timeout loading page after 300000ms
+

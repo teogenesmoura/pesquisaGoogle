@@ -1,0 +1,23 @@
+[
+	{
+		"login" : "resocie.esquerda2@gmail.com",
+		"password" : "Tarrow2016"
+	},	
+        {
+		"login" : "resocie.direita2@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.homem2@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.mulher2@gmail.com",
+		"password" : "Tarrow2016"
+	},
+        {
+		"login" : "resocie.neutra2@gmail.com",
+		"password" : "Tarrow2016"
+	} 
+]
+

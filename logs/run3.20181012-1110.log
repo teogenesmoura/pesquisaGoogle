@@ -1,0 +1,53 @@
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f2827ca2940>
+<genericresult.GenericResult object at 0x7f2827ca2f98>
+<video.Video object at 0x7f2827ca29b0>
+<topstory.TopStory object at 0x7f2828fd1da0>
+<genericresult.GenericResult object at 0x7f2827ca2f60>
+<video.Video object at 0x7f2827ca2940>
+<topstory.TopStory object at 0x7f282bc5c438>
+<genericresult.GenericResult object at 0x7f2827ca2f60>
+<video.Video object at 0x7f2827ca2da0>
+<topstory.TopStory object at 0x7f2828fd1da0>
+<genericresult.GenericResult object at 0x7f2827ca2908>
+<video.Video object at 0x7f2827ca2b70>
+<topstory.TopStory object at 0x7f282bc5c438>
+<genericresult.GenericResult object at 0x7f2827ca2908>
+<video.Video object at 0x7f2827ca2ba8>
+<topstory.TopStory object at 0x7f2828fd1da0>
+<genericresult.GenericResult object at 0x7f2827ca2ef0>
+<video.Video object at 0x7f2827ca2a90>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Bolsonaro, Haddad, fraude nas urnas
+<topstory.TopStory object at 0x7f2828fd1da0>
+<genericresult.GenericResult object at 0x7f2827ca2278>
+<video.Video object at 0x7f282740bcf8>
+<topstory.TopStory object at 0x7f282740bc18>
+<genericresult.GenericResult object at 0x7f282740be48>
+<video.Video object at 0x7f282740ba20>
+<topstory.TopStory object at 0x7f2827ca2208>
+<genericresult.GenericResult object at 0x7f2827ca2d68>
+<video.Video object at 0x7f282740b978>
+<topstory.TopStory object at 0x7f282740be80>
+<genericresult.GenericResult object at 0x7f282740bcf8>
+<video.Video object at 0x7f282740be48>
+<topstory.TopStory object at 0x7f2827ca2b00>
+<genericresult.GenericResult object at 0x7f2827ca2be0>
+<video.Video object at 0x7f282740bdd8>
+<topstory.TopStory object at 0x7f282740bac8>
+<genericresult.GenericResult object at 0x7f282740bdd8>
+<video.Video object at 0x7f282740b860>
+Traceback (most recent call last):
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 93, in <module>
+    main()
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 81, in main
+    gmail_sign_in(driver, profile)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 32, in gmail_sign_in
+    driver.get("http://mail.google.com")
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 326, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Timeout loading page after 300000ms
+

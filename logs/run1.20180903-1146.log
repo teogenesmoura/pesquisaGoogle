@@ -1,0 +1,12 @@
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Lula, Bolsonaro, Haddad, Marina Silva, Alckmin, Ciro Gomes, João Amoedo, Álvaro Dias, Cabo Daciolo, Boulos
+<topstory.TopStory object at 0x7f6992c2da20>
+<genericresult.GenericResult object at 0x7f6992c2df60>
+<video.Video object at 0x7f6992c2d8d0>
+Traceback (most recent call last):
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 93, in <module>
+    main()
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 89, in main
+    requests.post(os.environ["POST_URL"], json=json_data)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'POST_URL'

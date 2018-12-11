@@ -1,0 +1,73 @@
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Lula, Bolsonaro, Haddad, Marina Silva, Alckmin, Ciro Gomes, João Amoedo, Álvaro Dias, Cabo Daciolo, Boulos
+<topstory.TopStory object at 0x7f39eb723ac8>
+<genericresult.GenericResult object at 0x7f39eb723c50>
+<video.Video object at 0x7f39eb723cc0>
+<topstory.TopStory object at 0x7f39eca52d68>
+<genericresult.GenericResult object at 0x7f39eb723f98>
+<video.Video object at 0x7f39eb723940>
+<topstory.TopStory object at 0x7f39ef6dd438>
+<genericresult.GenericResult object at 0x7f39eb723cc0>
+<video.Video object at 0x7f39eb7232b0>
+<topstory.TopStory object at 0x7f39eca52d68>
+<genericresult.GenericResult object at 0x7f39eb723e10>
+<video.Video object at 0x7f39eb723860>
+<topstory.TopStory object at 0x7f39ef6dd438>
+<genericresult.GenericResult object at 0x7f39eb723b70>
+<video.Video object at 0x7f39eb723978>
+<topstory.TopStory object at 0x7f39eca52d68>
+<genericresult.GenericResult object at 0x7f39eb723d68>
+<video.Video object at 0x7f39eb723f98>
+<topstory.TopStory object at 0x7f39ef6dd438>
+<genericresult.GenericResult object at 0x7f39eb723e10>
+<video.Video object at 0x7f39eb723cc0>
+<topstory.TopStory object at 0x7f39eca52d68>
+<genericresult.GenericResult object at 0x7f39eb723940>
+<video.Video object at 0x7f39eb723e48>
+<topstory.TopStory object at 0x7f39ef6dd438>
+<genericresult.GenericResult object at 0x7f39eb723b38>
+<video.Video object at 0x7f39eb723c50>
+<topstory.TopStory object at 0x7f39eca52d68>
+<genericresult.GenericResult object at 0x7f39eb7232b0>
+<video.Video object at 0x7f39eb723be0>
+<topstory.TopStory object at 0x7f39ef6dd438>
+<genericresult.GenericResult object at 0x7f39eb723d68>
+<video.Video object at 0x7f39eb7232b0>
+<topstory.TopStory object at 0x7f39eca52d68>
+<genericresult.GenericResult object at 0x7f39eb723d30>
+<video.Video object at 0x7f39eb723e10>
+<topstory.TopStory object at 0x7f39ef6dd438>
+<genericresult.GenericResult object at 0x7f39eb723be0>
+<video.Video object at 0x7f39eb723e48>
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Lula, Bolsonaro, Haddad, Marina Silva, Alckmin, Ciro Gomes, João Amoedo, Álvaro Dias, Cabo Daciolo, Boulos
+<topstory.TopStory object at 0x7f39ef6dd438>
+<genericresult.GenericResult object at 0x7f39eb723d68>
+<video.Video object at 0x7f39eae93a20>
+<topstory.TopStory object at 0x7f39eb723358>
+<genericresult.GenericResult object at 0x7f39eb723470>
+<video.Video object at 0x7f39eae93c18>
+<topstory.TopStory object at 0x7f39eb723f98>
+<genericresult.GenericResult object at 0x7f39eb723898>
+<video.Video object at 0x7f39eae93be0>
+<topstory.TopStory object at 0x7f39eb723ac8>
+<genericresult.GenericResult object at 0x7f39eb723898>
+<topstory.TopStory object at 0x7f39eb723128>
+<genericresult.GenericResult object at 0x7f39eb7231d0>
+<video.Video object at 0x7f39eae93b38>
+<topstory.TopStory object at 0x7f39eb723390>
+<genericresult.GenericResult object at 0x7f39eb723ac8>
+<video.Video object at 0x7f39eae93c88>
+Traceback (most recent call last):
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 93, in <module>
+    main()
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 84, in main
+    google_html = google_search(driver, busca)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 25, in google_search
+    driver.get(base_link + query)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 326, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: Timeout loading page after 300000ms
+

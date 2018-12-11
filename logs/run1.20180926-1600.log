@@ -1,0 +1,57 @@
+Pesquisando os atores: Eleições 2018, Lugar de votação, Candidatos a Presidente, Lula, Bolsonaro, Haddad, Marina Silva, Alckmin, Ciro Gomes, João Amoedo, Álvaro Dias, Cabo Daciolo, Boulos
+<topstory.TopStory object at 0x7f5977e86b00>
+<genericresult.GenericResult object at 0x7f5977e86c88>
+<video.Video object at 0x7f5977e86cf8>
+<topstory.TopStory object at 0x7f59791b5dd8>
+<genericresult.GenericResult object at 0x7f5977e86fd0>
+<video.Video object at 0x7f5977e86978>
+<topstory.TopStory object at 0x7f597be40438>
+<genericresult.GenericResult object at 0x7f5977e86ef0>
+<video.Video object at 0x7f5977e869b0>
+<topstory.TopStory object at 0x7f59791b5dd8>
+<genericresult.GenericResult object at 0x7f5977e86eb8>
+<video.Video object at 0x7f5977e86978>
+<topstory.TopStory object at 0x7f597be40438>
+<genericresult.GenericResult object at 0x7f5977e86860>
+<video.Video object at 0x7f5977e86b70>
+<topstory.TopStory object at 0x7f59791b5dd8>
+<genericresult.GenericResult object at 0x7f5977e86f60>
+<video.Video object at 0x7f5977e86da0>
+<topstory.TopStory object at 0x7f597be40438>
+<genericresult.GenericResult object at 0x7f5977e86eb8>
+<video.Video object at 0x7f5977e86fd0>
+<topstory.TopStory object at 0x7f59791b5dd8>
+<genericresult.GenericResult object at 0x7f5977e86c88>
+<video.Video object at 0x7f5977e86cf8>
+<topstory.TopStory object at 0x7f597be40438>
+<genericresult.GenericResult object at 0x7f5977e86a90>
+<video.Video object at 0x7f5977e86ba8>
+<topstory.TopStory object at 0x7f59791b5dd8>
+<genericresult.GenericResult object at 0x7f5977e869b0>
+<video.Video object at 0x7f5977e86e48>
+<topstory.TopStory object at 0x7f597be40438>
+<genericresult.GenericResult object at 0x7f5977e86f60>
+<video.Video object at 0x7f5977e86828>
+<topstory.TopStory object at 0x7f59791b5dd8>
+<genericresult.GenericResult object at 0x7f5977e86fd0>
+<video.Video object at 0x7f5977e86e80>
+<topstory.TopStory object at 0x7f597be40438>
+<genericresult.GenericResult object at 0x7f5977e86c88>
+<video.Video object at 0x7f5977e86cf8>
+Traceback (most recent call last):
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 93, in <module>
+    main()
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 81, in main
+    gmail_sign_in(driver, profile)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/roda_pesquisas.py", line 42, in gmail_sign_in
+    passw = driver.find_element_by_name("password")
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 489, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 957, in find_element
+    'value': value})['value']
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "/home/ibpad-005023/Documentos/Observatorio-google/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [name="password"]
+
